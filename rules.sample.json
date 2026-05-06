@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "id": "webview2_crash_near_symantec_tamper",
+      "description": "WebView2 crash near Symantec Tamper Protection / Access denied",
+      "classification": "Security.SymantecTamperProtection",
+      "severity": "P1"
+    },
+    {
+      "id": "bex64_failfast",
+      "description": "BEX/BEX64 or 0xc0000409 fail-fast crash",
+      "classification": "Crash.BEX64FailFast",
+      "severity": "P1"
+    },
+    {
+      "id": "security_event_near_crash",
+      "description": "Security/EDR/AppLocker/CodeIntegrity signal near an application crash",
+      "classification": "Security.InterferenceNearCrash",
+      "severity": "P1"
+    }
+  ]
+}
